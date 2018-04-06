@@ -21,7 +21,7 @@ if [ "$new_name" ]; then
     mv skeleton/ $new_name
     git init
     git add -A
-    echo "skeleton has been renamed to $name and \
+    echo "skeleton has been renamed to $new_name and \
 	    'git init; git add -A' has been run."
 else
     echo "No name supplied."
